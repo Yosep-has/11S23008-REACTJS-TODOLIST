@@ -6,7 +6,7 @@ import {
 } from "../states/action";
 import { useEffect, useState } from "react";
 import apiHelper from "../../../helpers/apiHelper";
-import { asyncSetProfile, setIsProfile } from "../../todos/states/action";
+import { asyncSetProfile, setIsProfile } from "../../users/states/action";
 
 function LoginPage() {
   const dispatch = useDispatch();

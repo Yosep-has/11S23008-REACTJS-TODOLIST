@@ -2,7 +2,7 @@ import {
   showErrorDialog,
   showSuccessDialog,
 } from "../../../helpers/toolsHelper";
-import todoApi from "../api/todoApi";
+import todoApi from "../Api/todoApi";
 
 export const ActionType = {
   SET_TODOS: "SET_TODOS",
